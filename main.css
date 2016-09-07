@@ -1,25 +1,27 @@
-/* ƒe[ƒuƒ‹ƒŒƒCƒAƒEƒg‚ğ•ö‚· */
+@charset "UTF-8";
+
+/* ãƒ†ãƒ¼ãƒ–ãƒ«ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆã‚’å´©ã™ */
 .l-content .l-content__box .l-content__box__left{
 	display:block;
 }
-/* ƒvƒŒƒCƒ„[‘¤ƒRƒ“ƒeƒi */
+/* ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼å´ã‚³ãƒ³ãƒ†ãƒŠ */
 .l-content .l-content__box .l-content__box__right{
 	display:block;
 	width:100%;
 }
-/* ƒ`ƒƒƒbƒg‘¤ƒRƒ“ƒeƒi  */
+/* ãƒãƒ£ãƒƒãƒˆå´ã‚³ãƒ³ãƒ†ãƒŠ  */
 .p-playlist{
 	width:100%;
 }
-/* ƒ†[ƒU[–¼‚ğ”ñ•\¦ */
+/* ãƒ¦ãƒ¼ã‚¶ãƒ¼åã‚’éè¡¨ç¤º */
 .c-chart__list__item__username{
 	display:none !important;
 }
-/* ƒ†[ƒU[–¼‚ÆƒRƒƒ“ƒg‚ÌŠÔ‚ÌF‚ğ”ñ•\¦ */
+/* ãƒ¦ãƒ¼ã‚¶ãƒ¼åã¨ã‚³ãƒ¡ãƒ³ãƒˆã®é–“ã®ï¼šã‚’éè¡¨ç¤º */
 .c-chart .c-chart__list .c-chart__list__item{
 	color:transparent !important;
 }
-/* ƒRƒƒ“ƒg‚ğ•‚‚©‚¹‚ÄƒŒƒCƒAƒEƒg eƒRƒ“ƒeƒi‚ğ‚¢‚¶‚é‚Æ©“®ƒXƒNƒ[ƒ‹‚Éxá */
+/* ã‚³ãƒ¡ãƒ³ãƒˆã‚’æµ®ã‹ã›ã¦ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ è¦ªã‚³ãƒ³ãƒ†ãƒŠã‚’ã„ã˜ã‚‹ã¨è‡ªå‹•ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã«æ”¯éšœ */
 .c-chart .c-chart__list .c-chart__list__item .c-chart__list__item__name{
 	border-top:1px solid rgba(255,255,255,.9);
 	position:absolute;
@@ -34,11 +36,11 @@
 	white-space:nowrap !important;
 	overflow:hidden !important;
 }
-/* ‚¨‚·‚·‚ß“®‰æ‚ğ”ñ•\¦‚É */
+/* ãŠã™ã™ã‚å‹•ç”»ã‚’éè¡¨ç¤ºã« */
 .p-playbox .p-playbox__content .p-playbox__content__movie{
 	display:none;
 }
-/* V‹Kƒ†[ƒU[‚ğƒIƒŒƒ“ƒW‚É */
+/* æ–°è¦ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‚’ã‚ªãƒ¬ãƒ³ã‚¸ã« */
 .c-chart .c-chart__list .c-chart__list__item.is_fresh  .c-chart__list__item__name{
 	color:orange !important;
 }
