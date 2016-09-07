@@ -1,0 +1,44 @@
+/* テーブルレイアウトを崩す */
+.l-content .l-content__box .l-content__box__left{
+	display:block;
+}
+/* プレイヤー側コンテナ */
+.l-content .l-content__box .l-content__box__right{
+	display:block;
+	width:100%;
+}
+/* チャット側コンテナ  */
+.p-playlist{
+	width:100%;
+}
+/* ユーザー名を非表示 */
+.c-chart__list__item__username{
+	display:none !important;
+}
+/* ユーザー名とコメントの間の：を非表示 */
+.c-chart .c-chart__list .c-chart__list__item{
+	color:transparent !important;
+}
+/* コメントを浮かせてレイアウト 親コンテナをいじると自動スクロールに支障 */
+.c-chart .c-chart__list .c-chart__list__item .c-chart__list__item__name{
+	border-top:1px solid rgba(255,255,255,.9);
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	color:#fff !important;
+	font-size:18px;
+	line-height:34px;
+	padding:0 5px !important;
+	white-space:nowrap !important;
+	overflow:hidden !important;
+}
+/* おすすめ動画を非表示に */
+.p-playbox .p-playbox__content .p-playbox__content__movie{
+	display:none;
+}
+/* 新規ユーザーをオレンジに */
+.c-chart .c-chart__list .c-chart__list__item.is_fresh  .c-chart__list__item__name{
+	color:orange !important;
+}
