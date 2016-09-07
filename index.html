@@ -5,18 +5,33 @@
 	<style>
 		a{
 			display:inline-block;;
-			padding:10px 50px;
+			padding:20px 100px;
 			background:#006;
 			color:#fff;
 			
 		}
+		p{
+			margin-left:30px;
+		}
 	</style>
 </head>
 <body>
-<h1>vash-openrec ブックマークレット登録</h1>
+<h1>vash-openrec ブックマークレット</h1>
+<h2>概要</h2>
+<p>OPENRECのコメントレイアウトを変更します。↓変更後イメージ。これを取り込めばいいんじゃないかな</p>
+<p><img src="./desc/comment.png" width="1000"></p>
+<h2>利用手順</h2>
+<h3>1.ブックマークを作成</h3>
 <p><a href="javascript:(function(){if(window.opbm!==undefined){opbm();}else{var e=document.body.appendChild(document.createElement('link'));e.rel='stylesheet';e.href='https://mun123123.github.io/vash-openrec-bookmarklet/main.css';e.type='text/css'}})();">Openrecブックマークレット</a></p> 
 <p>↑このリンクをブックマークバーにドラッグ</p>
-
+<p>↓ドラッグするとこうなる</p>
+<p><img style="border:5px solid #f00" src="./desc/drag2.png"></p>
+<h3>2.OPENRECサイトを開く</h3>
+<p><img style="border:5px solid #f00" src="./desc/openrec.png" width="300"></p>
+<h3>3.サイトを開いた状態で、1.で作成したブックマークを押す</h3>
+<p>ブックマークをおすと画面のレイアウトが変更され、コメントが画面下に移動</p>
+<p><ul><li>名前非表示</li><li>若葉マークの付いたコメントをオレンジに</li></ul>
+<p><img src="./desc/comment.png" width="500"></p>
 </body>
 </html>
 
